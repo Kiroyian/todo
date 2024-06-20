@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #37208a;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    background-color: rgb(231, 60, 60);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header input {
+    padding: 10px;
+    margin: 5px;
+    width: 30%;
+    box-sizing: border-box;
+}
+
+.addBtn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border: none;
+    display: inline-block;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 15px;
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    align-items: center;
+}
+
+li span {
+    flex-grow: 1;
+}
+
+li button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.editBtn {
+    background-color: #ff9800;
+    color: white;
+}
+
+.deleteBtn {
+    background-color: #f44336;
+    color: white;
+}
+
+.completeBtn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.checked {
+    text-decoration: line-through;
+    color: grey;
+}
